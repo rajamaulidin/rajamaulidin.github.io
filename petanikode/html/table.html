@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<body>
+    <h1>ini adalah cara membuat tabel</h1>
+
+    <!--Tag <table> untuk membungkus tabelnya
+    Tag <thead> untuk membungkus bagian kepala tabel
+    Tag <tbody> untuk membungkus bagian body dari tabel
+    Tag <tr> (tabel row) untuk membuat baris
+    Tag <td> (table data) untuk membuat sel
+    Tag <th> (table head) untuk membuat judul pada header-->
+
+    <table>
+        <tr>
+            <td>baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+    </table>
+
+    <!--tambahkan atribut "border" agar tabel memiliki garis
+        tambahkan atribut cellpadding untuk mengatur jarak teks dengan garis-->
+    <table border="1" cellpadding="10">
+        <tr>
+            <td>baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td>baris 2 kolom 1</td>
+            <td>baris 2 kolom 2</td>
+        </tr>
+    </table>
+
+    <!--cara menambahkan warna pada gambar-->
+    <table border="1" cellpadding="10">
+        <tr>
+            <td bgcolor="red">baris 1 kolom 1</td>
+            <td>baris 1 kolom 2</td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow">baris 2 kolom 1</td>
+            <td bgcolor="blue">baris 2 kolom 2</td>
+        </tr>
+    </table>
+
+    <!--menggabungkan cell-->
+    <table border="1" cellpadding="5">
+        <tr>
+            <th rowspan="2" bgcolor="green">bulan</th>
+            <th colspan="2" bgcolor="yellow">hasil panen</th>
+        </tr>
+        <tr>
+            <th>padi</th>
+            <th>kacang</th>
+        </tr>
+        <tr>
+            <td>januari</td>
+            <td>500 kg</td>
+            <td>231 kg</td>
+        </tr>
+        <tr>
+            <td>februari</td>
+            <td>111 kg</td>
+            <td>222 kg</td>
+        </tr>
+        <tr>
+            <td>maret</td>
+            <td>333 kg</td>
+            <td>456 kg</td>
+        </tr>
+        <tr>
+            <td>april</td>
+            <td>777 kg</td>
+            <td>345 kg</td>
+        </tr>
+    </table>
+
+</body>
+</html>
